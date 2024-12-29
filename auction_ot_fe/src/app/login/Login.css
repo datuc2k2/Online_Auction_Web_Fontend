@@ -1,0 +1,17 @@
+.password-container {
+    position: relative;
+    width: max-content;
+    display: flex;
+}
+
+.password-container input {
+    padding-right: 30px; /* Để chừa khoảng trống cho icon */
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

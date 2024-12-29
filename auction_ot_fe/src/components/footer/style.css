@@ -1,0 +1,68 @@
+/* Căn giữa "Loại sản phẩm" và "Tìm hiểu thêm" */
+.footer-widget {
+    text-align: center;
+  }
+  
+  .footer-widget .widget-title h4 {
+    font-size: 1.5rem; /* Kích thước tiêu đề */
+    margin-bottom: 1rem;
+    color: #333; /* Màu tiêu đề */
+  }
+  
+  .footer-widget .menu-container .widget-list {
+    display: inline-block; /* Căn giữa nội dung danh sách */
+    text-align: left; /* Căn trái các mục */
+  }
+  
+  .footer-widget .widget-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-widget .widget-list li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .footer-widget .widget-list li a:hover {
+    color: #007bff; /* Màu khi hover */
+  }
+  
+  /* Phần logo ảnh to hơn */
+  .footer-logo-area {
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    width: 200px; /* Kích thước logo lớn hơn */
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .social-area h5 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-area ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-area ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  /* Căn giữa toàn bộ các mục */
+  .footer-menu-wrap .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  

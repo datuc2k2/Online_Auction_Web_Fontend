@@ -1,0 +1,15 @@
+.ant-upload-list-picture-card {
+    margin-top: 30px !important;
+}
+
+.ant-select-selector {
+    height: 42px !important;
+}
+
+.ant-select-selection-item {
+    line-height: 42px !important;
+}
+
+.customSelect .ant-select-selection-item {
+    line-height: 22px !important;
+  }

@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve", // or "react" for older React versions
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/login/page.js",
+    "src/components/auction-details/MultipurposeDetails1.jsx",
+    "src/components/icon/iconContainer.js",
+    "src/app/search/_PostItem.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

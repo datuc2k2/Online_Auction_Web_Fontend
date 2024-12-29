@@ -1,0 +1,64 @@
+.price-container {
+    font-family: Arial, sans-serif;
+}
+
+
+.current-price-label {
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.current-price-label::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #00a99d;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.current-price-value {
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+
+.current-price-value-check {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Container for tabs */
+.tab-container {
+    display: flex;
+    border-bottom: 1px solid #ccc; /* Đường gạch dưới tabs */
+  }
+  
+  /* Individual tab styles */
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    background-color: #f9f9f9; /* Màu nền tab mặc định */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex: 1; /* Cân đều chiều rộng */
+  }
+  
+  /* Active tab style */
+  .tab.active {
+    background-color: #00a99d; /* Màu nền tab đang active */
+    color: white;
+    border-bottom: 2px solid #00a99d; /* Đường gạch cùng màu */
+  }
